@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Web Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Rust Web Server!</h1>
+        <p>This is a simple web server implemented in Rust as part of Assignment 1.</p>
+        <p>The server can handle basic HTTP GET requests and serve static files.</p>
+        
+        <h2>Features:</h2>
+        <ul>
+            <li>TCP socket creation and client connection handling</li>
+            <li>HTTP request parsing</li>
+            <li>File system access and content serving</li>
+            <li>Proper HTTP response generation with headers</li>
+            <li>404 Not Found error handling</li>
+        </ul>
+        
+        <div class="links">
+            <a href="/about.html">About Page</a>
+            <a href="/nonexistent.html">Test 404 Error</a>
+        </div>
+    </div>
+</body>
+</html>
