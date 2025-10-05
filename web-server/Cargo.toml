@@ -1,0 +1,15 @@
+[package]
+name = "rust-web-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "main.rs"
+
+[[bin]]
+name = "client"
+path = "client.rs"
+
+[dependencies]
+# No external dependencies - using only std library for educational purposes

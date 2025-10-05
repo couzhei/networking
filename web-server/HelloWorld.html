@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Rust Web Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .highlight {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦀 Hello World! 🌍</h1>
+        <p>Welcome to the <strong>Rust Web Server</strong>!</p>
+        
+        <div class="highlight">
+            <p>🎉 <strong>Success!</strong> Your web server is working correctly.</p>
+            <p>This HTML file was served by a custom web server written in Rust.</p>
+        </div>
+        
+        <p>This demonstrates:</p>
+        <ul style="text-align: left; max-width: 500px; margin: 0 auto;">
+            <li>✅ TCP socket programming</li>
+            <li>✅ HTTP request parsing</li>
+            <li>✅ File system access</li>
+            <li>✅ HTTP response generation</li>
+            <li>✅ Proper error handling (try a non-existent file!)</li>
+        </ul>
+        
+        <div class="footer">
+            <p>🔗 Try visiting: <a href="/about.html" style="color: #ffeb3b;">/about.html</a></p>
+            <p>Or test 404 error: <a href="/nonexistent.html" style="color: #ffcdd2;">/nonexistent.html</a></p>
+        </div>
+    </div>
+</body>
+</html>
